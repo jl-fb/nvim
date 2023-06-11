@@ -1,0 +1,17 @@
+require("mst.plugins-setup")
+require("mst.core.options")
+require("mst.core.keymaps")
+require("mst.core.colorscheme")
+
+-- custom plugins
+require("mst.plugins.comment")
+require("mst.plugins.nvim-tree")
+require("mst.plugins.lualine")
+require("mst.plugins.telescope")
+require("mst.plugins.nvim-cmp")
+require("mst.plugins.lsp.mason")
+require("mst.plugins.lsp.lspconfig")
+require("mst.plugins.lsp.null-ls")
+require("mst.plugins.autopairs")
+require("mst.plugins.treesitter")
+require("mst.plugins.gitsigns")
