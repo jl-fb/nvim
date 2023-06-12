@@ -3,9 +3,7 @@ if not setup then
 	return
 end
 
-toggleterm.setup({
-	size = 20,
-})
+toggleterm.setup({})
 
 function _G.set_terminal_keymaps()
 	local opts = { buffer = 0 }
