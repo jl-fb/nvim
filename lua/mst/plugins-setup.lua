@@ -110,10 +110,10 @@ return packer.startup(function(use)
 	use({
 		"akinsho/toggleterm.nvim",
 		tag = "*",
-		config = function()
-			require("toggleterm").setup()
-		end,
 	})
+
+	-- bufferline
+	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
 
 	if packer_bootstrap then
 		require("packer").sync()

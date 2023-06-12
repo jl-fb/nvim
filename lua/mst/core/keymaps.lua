@@ -61,3 +61,9 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 keymap.set("n", "<leader>th", "<cmd>ToggleTerm direction=horizontal<cr>")
 keymap.set("n", "<leader>tv", "<cmd>ToggleTerm direction=vertical<cr>")
 keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>")
+
+-- bufferline
+keymap.set("n", "<leader>bp", "<cmd>BufferLinePick<cr>")
+keymap.set("n", "<leader>bpc", "<cmd>BufferLinePickClose<cr>")
+keymap.set("n", "<C-l>", "<cmd>BufferLineCyclePrev<cr>")
+keymap.set("n", "<C-n>", "<cmd>BufferLineCycleNext<cr>")
