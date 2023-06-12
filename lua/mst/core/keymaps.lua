@@ -57,3 +57,7 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
+-- toogleterm
+keymap.set("n", "<leader>th", "<cmd>ToggleTerm direction=horizontal<cr>")
+keymap.set("n", "<leader>tv", "<cmd>ToggleTerm direction=vertical<cr>")
+keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>")
